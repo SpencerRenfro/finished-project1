@@ -1,0 +1,99 @@
+.hobbies-header {
+     padding-top: 60px; 
+  }
+ 
+.container {
+    justify-content: center;
+    display: flex;
+  }
+
+.hobbies-img {
+  position: center;
+  width: 600px;
+}
+
+.hobbies-body {
+  padding: 0px;
+  margin: 0px;
+  background: #f7f5f0;
+}
+
+.main-navigation {
+    width: 100%;
+    min-height: 30px;
+    padding: 10px;
+    position: fixed;
+    text-align: center;
+    background: black;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    float: left;
+}
+
+.navigation li {
+    padding: 5px 10px 10px 10px;
+  }
+
+.navigation a {
+    transition: all .5s;
+    color: white;
+  }
+.navigation a:hover {
+    color: gray;
+  }
+
+.navigation li {
+    display: inline;
+    padding: 5px 10px 10px 10px;
+
+}
+
+li a {
+    text-decoration: none;
+  }
+
+  .active {
+   border: solid 3px white;
+   padding: 2px;
+  }
+
+
+.hobbies-card {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+  justify-content: center;
+}
+.card:hover {
+  border-color: #ff99ff;
+}
+
+ul.skills {
+  padding: 0;
+  text-align: center;
+}
+
+.skills li {
+  border-radius: 6px;
+  display: inline-block;
+  background: #ff9904;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.skills li:nth-child(odd) {
+  background: #0399ff;
+}
